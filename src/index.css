@@ -58,8 +58,20 @@ button:hover {
 .container-form>button {
   width: 50%;
   align-self: center;
+  min-width: 100px;
 
 
+}
+
+.self-center {
+
+  align-self: center;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 input {
